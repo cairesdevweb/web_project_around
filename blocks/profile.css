@@ -1,54 +1,40 @@
 .profile {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2.8891rem;
     width: 880px;
     height: 120px;
-    margin: 159px 200px 50px;
-    display: flex;
-}
-.avatar {
-    width: 120px;
-    height: 120px;
-    display: flex;
-}
-.saci {
-    width: 168px;
-    height: 127px;
-    margin: -3.8px -26px -3.8px -26px;
-}
-.profile__titles {
-    border: 2px solid red;
+    margin: 136px auto 50px;
+
 }
 .profile__info {
-    width: 415px;
-    height: 77px;
-    display: flex;
+  display: flex;
 }
-.profile__name {
-    width: 373px;
-    height: 39px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 48px; 
-}
-.profile__text {
-    width: 415px;
-    height: 22px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 16px;
-}    
-.profile__image {
-    width: 24px;
-    height: 24px;
-}
-.add-btn {
-    width: 150px;
-    height: 50px;
 
+.avatar__image {
+  border-radius: 50%;
+  width: 168px;
+}
+.profiles {
+    margin:  0 0 0 50px ;
+}
+.btn__edt {
+  width: 24px;
+  height: 24px;
+  margin: 30px 165px 0 18px;
+}
+.btn__add {
+  width: 150px;
+  height: 50px;
+  margin: 30px 0 0 0;
+}
+@media (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+
+}
 }

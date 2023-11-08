@@ -16,20 +16,119 @@
       <div class="header__border"></div>
     </header>
 
-    <main class="main">
-        <section class="profile">
-            <div class="avatar">
-              <img src="./image/profile/image.jpg" class="saci" alt="profile picture">
-              <div class="profile__titles">
-                <div class="profile__info">
-                  <h1 class="profile__name">Jacques Cousteau</h1>
-                  <img src="./image/profile/Edit Button.png" class="profile__image" alt="icone de um lapiz">
-                </div>
-                <h2 class="profile__text">Explorar</h2>
-              </div>
-              <img src="./image/profile/Add Button.png" alt="simbolo de adição" class="add-btn">
-            </div>
-          </section>
-    </main>
+    <section class="profile">
+      <div class="avatar">
+        <img
+          class="avatar__image"
+          src="./image/profile/image.jpg"
+          alt="imagem de perfil"
+        />
+      </div>
+      <div class="profiles">
+        <div class="profile__info">
+          <h1 class="profile__title">Jacques Cousteau</h1>
+          <img
+            class="btn btn__edt opacursor"
+            src="./image/profile/Edit Button.png"
+            alt="botão de editar"
+          />
+        </div>
+        <div class="profile__subtitle">Explorar</div>
+      </div>
+      <img
+        class="btn btn__add opacursor"
+        src="./image/profile/Add Button.png"
+        alt="botao de adicionar"
+      />
+    </section>
+
+    <ul class="cards">
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Vale de Yosemite</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Lago Louise</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Montanhas Care...</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Latemar</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Vanoise Nationa...</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+      <li class="card">
+        <img
+          src="./image/cards/kirill-pershin-1088404-unsplash-1.png"
+          alt=""
+          class="card__image"
+        />
+        <div class="card__titles">
+          <h3 class="card__title">Lago di Braies</h3>
+          <img src="./image/cards/Group.png" alt="" class="card__like opacursor" />
+        </div>
+      </li>
+    </ul>
+
+<div class="popup">
+    <div class="overlay"></div>
+    <form action="" class="form">
+        <h3 class="form__title">Editar perfil</h3>
+
+        <input type="text" class="input__name">
+        <input type="text" class="input__job">
+
+        <button class="btn button__form_edt opacursor">Salvar</button>
+
+    </form>
+</div>
+
+
+
+
+
+
+
   </body>
 </html>
