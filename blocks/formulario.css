@@ -1,4 +1,54 @@
 .form {
     background: #fff;
     color: #000;
+    width: 430px;
+    height: 330px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px;
+}
+.form__title {
+    width: 330px;
+    height: 23px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 29px;
+    padding-top: 34px;
+    padding-left: 36px;
+    padding-right: 64px;
+}
+.input__name {
+    width: 358px;
+    height: 14px;
+    margin: 0 36px 0 36px;
+    border: none;
+}
+.line__one {
+    border-bottom: 358px;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.input__job {
+    width: 358px;
+    height: 14px;
+    margin: 43px 36px 0 36px;
+    border: none;
+}
+.line__two {
+    border-bottom: 358px;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+    margin: 0 36px 0 36px;
+}
+.button__form_edt {
+    width: 358px;
+    height: 50.152px;
+    border-radius: 2px;
+    background: #000;
+    margin: 48px 36px 36px 36px;
 }
