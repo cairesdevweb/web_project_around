@@ -30,6 +30,11 @@
   height: 23px;
   margin: 25px auto;
 }
+.card__title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
 .card__like {
   width: 21px;
   height: 19px;
@@ -42,5 +47,33 @@
     width: 282px;
     margin: 0 auto;
     display: none;
+  }
+  .card {
+    width: 282px;
+    height: 361px;
+  }
+  .card__image {
+      width: 282px;
+      height: 282px;
+      border-radius: 10px 10px 0px 0px;
+  }
+  
+  .card__titles {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 246px;
+    height: 23px;
+    margin: 25px auto;
+  }
+  .card__title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .card__like {
+    width: 21px;
+    height: 19px;
   }
 }
