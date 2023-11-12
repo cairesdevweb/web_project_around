@@ -49,3 +49,54 @@
   height: 50px;
   margin: 30px 3px 0 0;
 }
+
+@media (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 2.8891rem;
+    width: 282px;
+    height: 286px;
+    margin: 100px auto 30px;
+}
+  .avatar__image {
+    margin: 0 auto;
+}
+.profiles{
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.profile__title {
+  width: 196px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin: 26.25px 76px 14px 48px;
+}
+.profile__subtitle {
+  width: 282px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+}
+.btn__edt {
+  width: 18px;
+  height: 18px;
+  margin: 30.25px 48px 29px -70px;
+}
+.btn__add {
+  width: 282px;
+  height: 50px;
+  margin: 36px 19px 36px 19px;
+  border-radius: 2px;
+  border: 2px solid #fff;
+}
+}

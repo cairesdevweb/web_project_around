@@ -1,12 +1,14 @@
 .cards {
   color: #000;
-  width: 880px;
-  height: 743px;
+  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap: 17px;
+  justify-content: center;
+  justify-items: center;
   margin: 0 auto;
+  row-gap: 21px;
+  column-gap: 17px;
+  width: 880px;
 }
 .card {
   width: 282px;
@@ -30,7 +32,7 @@
   height: 23px;
   margin: 25px auto;
 }
-.card__title{
+.card__title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -48,6 +50,9 @@
     margin: 0 auto;
   }
   .card {
+    width: 282px;
+    height: 361px;
     margin: 0 35px 0 0;
+    border-radius: 10px;
   }
 }

@@ -82,27 +82,33 @@
 }
 
 @media (max-width: 768px) {
-  .form__close {
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: -40px;
-    right: 10px;
+  .form {
+  width: 282px;
+  height: 322px;
   }
   .form__title {
     width: 238px;
-    height: 23px;
     font-size: 18px;
-    font-weight: 900;
-    line-height: 21.78px;
-    text-align: left;
-    color: #000;
-    margin: 25px auto 0;
+  }
+  .input__name {
+    width: 238px;
+    font-size: 14px;
+  }
+  .input__job {
+    width: 238px;
+    font-size: 14px
   }
   .button__form_edt {
     width: 238px;
     height: 46px;
-    margin: 46px auto 0;
+    margin: 46px 22px 25px 22px;
   }
-}
+  .form__close {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 170px;
+    right: 130px;
+  }
+} 
 
