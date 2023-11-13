@@ -39,7 +39,7 @@
   padding-left: 36px;
   padding-right: 64px;
 }
-.input__name {
+.form__input_name {
   width: 358px;
   height: 14px;
   margin: 0 36px 0 36px;
@@ -90,7 +90,7 @@
     width: 238px;
     font-size: 18px;
   }
-  .input__name {
+  .form__input_name {
     width: 238px;
     font-size: 14px;
   }
