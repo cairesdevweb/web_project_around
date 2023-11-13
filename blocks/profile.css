@@ -14,7 +14,7 @@
   display: flex;
 }
 
-.avatar__image {
+.profile__image {
   border-radius: 50%;
   width: 168px;
 }
@@ -61,7 +61,7 @@
     height: 286px;
     margin: 100px auto 30px;
 }
-  .avatar__image {
+  .profile__image {
     margin: 0 auto;
 }
 .profiles{
