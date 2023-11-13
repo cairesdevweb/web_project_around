@@ -39,7 +39,7 @@
   padding-left: 36px;
   padding-right: 64px;
 }
-.form__input_name {
+.form__name {
   width: 358px;
   height: 14px;
   margin: 0 36px 0 36px;
@@ -53,7 +53,7 @@
   margin-left: 36px;
   margin-right: 36px;
 }
-.input__job {
+.form__job {
   width: 358px;
   height: 14px;
   margin: 43px 36px 0 36px;
@@ -90,11 +90,11 @@
     width: 238px;
     font-size: 18px;
   }
-  .form__input_name {
+  .form__name {
     width: 238px;
     font-size: 14px;
   }
-  .input__job {
+  .form__job {
     width: 238px;
     font-size: 14px;
   }
