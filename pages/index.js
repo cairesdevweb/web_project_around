@@ -1,5 +1,4 @@
 const edtButton = document.querySelector(".profile__edt")
-console.log(edtButton)
 const edtPopup = document.querySelector(".popup")
 const buttonClose = edtPopup.querySelector(".form__close")
 
