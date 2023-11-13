@@ -1,9 +1,9 @@
-const edtButton = document.querySelector(".btn__edt")
+const edtButton = document.querySelector(".profile__edit")
 const edtPopup = document.querySelector(".popup")
 const buttonClose = edtPopup.querySelector(".form__close")
 
-const nameInput = document.querySelector(".input__name")
-const jobInput = document.querySelector(".input__job")
+const nameInput = document.querySelector(".form__name")
+const jobInput = document.querySelector(".form__job")
 const titleProfile = document.querySelector(".profile__title")
 const subtitleProfile = document.querySelector(".profile__subtitle")
 
