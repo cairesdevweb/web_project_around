@@ -72,11 +72,12 @@
   border-radius: 2px;
   background: #000;
   margin: 48px 36px 36px 36px;
+  color: #fff;
 }
 .form__close {
   width: 39px;
   height: 39px;
-  position: absolute;
+  position: fixed;
   top: 150px;
   right: 510px;
 }
